@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(167, 205, 129);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color:rgb(209, 225, 192);
+    border-radius: 10px;
+}
+.ptop{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(129, 161, 96);
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-left: 80px;
+}
+.info{
+    display: flex;
+   width: 30%;
+   gap: 20px;
+}
+.sc{
+    padding: 10px;
+    color: rgb(59, 93, 27);
+    background-color: rgb(172, 202, 142);
+    border-radius: 5px;
+    font-weight: 600; 
+    font-size: 20px;
+    
+}
+.h{
+    color: rgb(45, 66, 45);
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.pbtm{
+    height: calc(100% - 100px);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgb(132, 159, 105);
+    color: aliceblue;
+    font-weight: 600px;
+    font-size: 29px;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(95, 112, 78);
+}
+.timeid{
+    padding: 10px;
+    color: rgb(59, 93, 27);
+    background-color: rgb(172, 202, 142);
+    border-radius: 5px;
+    font-weight: 600; 
+    font-size: 20px;
+}
+.hit{
+    padding: 10px;
+    color: rgb(59, 93, 27);
+    background-color: rgb(172, 202, 142);
+    border-radius: 5px;
+    font-weight: 600; 
+    font-size: 20px;
+}
