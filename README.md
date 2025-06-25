@@ -37,7 +37,9 @@ Bubble-Game/<br>
 ---
 
 ## 📸 Screenshot
-
+<p align="center">
+  <img src="ScreenShots/1.png" width="550" alt="Main UI Screenshot">
+</p>
 
 
 ---
